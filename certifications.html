@@ -9,23 +9,25 @@
 </head>
 <body>
     <nav>
-        <div class="nav-container">
-            <div class="logo">
-                <span>Keerthi M</span>
-            </div>
-            <div class="menu-toggle" onclick="toggleMenu()">
+    <div class="nav-container">
+      <div class="logo">
+        <span>Keerthi M</span>
+      </div>
+
+      <div class="menu-toggle" onclick="toggleMenu()">
         <i class="fas fa-bars"></i> <!-- Hamburger Icon -->
       </div>
-            <div class="links">
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="skills.html">Skills</a>
-                <a href="certifications.html">Certifications</a>
-                <a href="projects.html">Projects</a>
-                <a href="contact.html">Contact</a>
-            </div>
-        </div>
-    </nav>
+
+      <div class="links" id="navbarLinks">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="certifications.html">Certifications</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </nav>
 
 
 <section id="certifications">
@@ -50,7 +52,7 @@
 
         </div>
     </section>
-    <script>
+<script>
   function toggleMenu() {
     document.getElementById('navbarLinks').classList.toggle('show');
   }
