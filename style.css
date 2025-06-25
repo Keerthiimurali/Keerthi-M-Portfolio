@@ -213,17 +213,20 @@ section ul li a:hover {
   .menu-toggle {
     display: block;
   }
+}
+
 
   .links {
     display: none;
-    flex-direction: column;
-    background: #1a1a1a;
-    position: absolute;
-    top: 60px;
-    left: 0;
-    width: 100%;
-    text-align: center;
-    padding: 1rem 0;
+  flex-direction: column;
+  background: #1a1a1a;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 1rem 0;
+  z-index: 999;
   }
 
   .links.show {
@@ -256,4 +259,4 @@ section ul li a:hover {
   .cert-images img {
     width: 90%;
   }
-}
+
